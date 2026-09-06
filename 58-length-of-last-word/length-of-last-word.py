@@ -4,8 +4,8 @@ class Solution(object):
         s=s.rstrip()
         s=list(s)
         count=0
-        for j in range(len(s)-1,-1,-1):
-            if s[j]==" ":
+        for i in range(len(s)-1,-1,-1):
+            if s[i]==" ":
                 break
             else:
                 count=count+1
